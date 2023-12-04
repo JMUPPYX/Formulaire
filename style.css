@@ -1,0 +1,45 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box ;
+    list-style: none;
+}
+
+/* formulaire de contact */
+/* On centre le formulaire */
+
+form{
+    margin:auto;
+    width: 25%;
+    background-color: red;
+    border-radius: 10%;
+    text-align: center;  
+}
+
+h1{
+    text-align: center;
+    margin: 35px;   
+}
+
+.formulaire{ 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    padding-bottom: 15px;  
+    margin:25px ;
+}
+
+.enfant {
+    margin: 10px 0;
+}
+
+textarea{
+    width: 100%;
+}
+
+.enfant label{
+    display: block;
+}
+.enfant input{
+    width: 100%;
+}
